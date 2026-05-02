@@ -1,0 +1,27 @@
+# Ignore common build artifacts and local files
+*.apk
+*.keystore
+*.iml
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+__pycache__/
+*.py[cod]
+.Python
+env/
+venv/
+ENV/
+node_modules/
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore APKTool output
+*_out/
+
+# Keep Python source, README, tools, and config files
+!disable-sslpining.py
+!README.md
+!tools/**
